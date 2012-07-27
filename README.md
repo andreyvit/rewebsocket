@@ -28,6 +28,13 @@ ReWebSocket is 99% API-compatible with WebSocket:
     };
 
 
+## Installation
+
+    npm install rewebsocket
+
+Also works as a client-side module via Browserify.
+
+
 ## API differences from WebSocket
 
 Method differences:
