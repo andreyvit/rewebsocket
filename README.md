@@ -2,10 +2,10 @@
 
 ReWebSocket is 99% API-compatible with WebSocket:
 
-    WebSocket = require('ws');
-    ReWebSocket = require('rewebsocket')(WebSocket);
+    var WebSocket = require('ws');
+    var ReWebSocket = require('rewebsocket')(WebSocket);
 
-    ws = new ReWebSocket("ws://127.0.0.1:3000");
+    var ws = new ReWebSocket("ws://127.0.0.1:3000");
     ws.open();  // the only big difference: need to call open explicitly!
 
     ws.onmessage = function(event) {
