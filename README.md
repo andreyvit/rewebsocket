@@ -2,6 +2,7 @@
 
 ReWebSocket is 99% API-compatible with WebSocket:
 
+    WebSocket = require('ws');
     ReWebSocket = require('rewebsocket')(WebSocket);
 
     ws = new ReWebSocket("ws://127.0.0.1:3000");
