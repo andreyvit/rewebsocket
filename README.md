@@ -1,5 +1,7 @@
 # ReWebSocket: WebSocket with automatic reconnection
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/andreyvit/rewebsocket.svg)](https://greenkeeper.io/)
+
 ReWebSocket is 99% API-compatible with WebSocket:
 
     var WebSocket = require('ws');
